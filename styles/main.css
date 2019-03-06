@@ -1,0 +1,21 @@
+.tableExample1 {
+    border: 1px solid black;
+  
+}
+
+.tableExample2 {
+    border: 1px solid black;
+}
+    
+#thExample2 {
+    border: 1px solid black;
+
+}
+
+.tableExample3 {
+    border-collapse: collapse;
+}
+
+#thExample3, #tdExample3  {
+    border: 1px solid black;
+}
