@@ -2,29 +2,41 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" media="screen" href="styles/main.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Acme|Bitter|Cedarville+Cursive|Dancing+Script|Indie+Flower|Press+Start+2P|Rock+Salt" rel="stylesheet">
     <title>CSS Show and Tell- Lili</title>
 </head>
 <body>
 <h1> Something I learned...</h1>
-<h2> Text Effects:</h2>
+
+
+<div class="changingFonts">
+ <h2> Text Effects: Importing New Fonts</h2>
+    <p> CSS/HTML and other languages allow users to change the font type as well as change aspects about that font such as weight, style, decoration etc. The font families though in CSS are limited. CSS can access other fonts not found within its norm if those fonts are linked into its stylesheet. This can be done via html. For example, users can choose fonts from GoogleFonts and GoogleFonts will create a link href that can be input to the html document. CSS can then acess those fonts as shown below: </p>
+
+    <h3 id="font1"> Script Fonts</h3>
+    <h3 id="font2"> Computer Typeface</h3>
+    <h3 id="font3">Handwriting</h3>
+    <p> It is important to note that it is a best practice not to source too many fonts into a document as it increases "slow time". It is also important to keep readability and consistently in minde when choosing a font. </p>
+
+</div>
 
 <div class="textEffectsShadow">
 
-<h3 id="shadowExample"> Text Effect: Text With Shadow</h3>
+<h2 id="shadowExample"> Text Effect: Text With Shadow</h3>
 <p> To create text that has a shadow, you first use the css code, color: to select the base color of the shadow. Next you use text-shadow which allows the user to to input values that change the vertical shadow size, horizontal shadow size and set the shadow color. Below are various examples of shadow-text with varying values for those inputs.
-<h4 id="vertBig">Text-Shadow increasing vertical shadow pixels</h4>
+<h3 id="vertBig">Text-Shadow increasing vertical shadow pixels</h4>
 
 <p> As you can see, adjusting the vertical shadow value to a larger pixel value will cause the shadow to move below the original text.</p>
 
-<h4 id="horizBig">Text-Shadow increasing horizontal shadow pixels</h4>
+<h3 id="horizBig">Text-Shadow increasing horizontal shadow pixels</h4>
 
 <p> As you can see, adjusting the horizontal shadow value to a larger pixel value will cause the shadow to move to the right of the original text.</p>
 
-<h4 id="vertSmaller">Text-Shadow decreasing vertical shadow pixels to a negative value</h4>
+<h3 id="vertSmaller">Text-Shadow decreasing vertical shadow pixels to a negative value</h4>
 
 <p> As you can see, adjusting the vertical shadow value to a negative pixel value will cause the shadow to move above the original text.</p>
 
-<h4 id="horizSmaller">Text-Shadow decreasing horizontal shadow pixels to a negative value</h4>
+<h3 id="horizSmaller">Text-Shadow decreasing horizontal shadow pixels to a negative value</h4>
 
 <p> As you can see, adjusting the horizontal shadow value to a larger pixel value will cause the shadow to move to the left of the original text.</p>
 

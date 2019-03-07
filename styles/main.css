@@ -1,34 +1,84 @@
 body {
-    background-color: #EAEAEA;
+    background-color: #F7F7F7;
     text-align:center;
 }
 h1{
     text-transform: uppercase;
-    font-family: 'Arial';
+    font-family:'Cedarville Cursive', cursive;
     font-style: italic;
+    color: #9B63A1;
+    font-size: 48px;
 }
+
+h2 {
+    font-family: 'Bitter', serif;
+    color: #6377A1;
+    font-weight: bold;
+    font-size: 32px;
+
+}
+
+h3 {
+    font-size: 32px;
+}
+
+.changingFonts {
+    background-color: #FAE0FB;
+    margin: 10px;
+}
+
+.textEffectsShadow {
+    background-color: #E0FBF3;
+    margin: 10px;
+}
+
+#font1 {
+    font-family: 'Dancing Script', cursive;
+    color: #3473E1;
+}
+
+#font2 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 28px;
+    color: #FE8432;
+}
+
+#font3 {
+    font-family: 'Rock Salt', cursive;
+    color: #8D0E52
+}
+
+
 #shadowExample {
+    font-family: 'Acme', sans-serif;
     color: #FF1493;
     text-shadow: 2px 2px #00CED1;
 }
 #vertBig {
+    font-family: 'Acme', sans-serif;
     color: #FF1493;
     text-shadow: 2px 20px #00CED1;
 }
 
 #horizBig{
+    font-family: 'Acme', sans-serif;
     color: #FF1493;
     text-shadow: 20px 2px #00CED1;
 }
 #vertSmaller {
+    font-family: 'Acme', sans-serif;
     color: #FF1493;
     text-shadow: 2px -20px #00CED1;
 }
 
 #horizSmaller {
+    font-family: 'Acme', sans-serif;
     color: #FF1493;
     text-shadow: -20px 2px #00CED1;
 }
 p{
-    color: 
+    font-family: 'Indie Flower', cursive;;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
 }
