@@ -6,57 +6,28 @@
 </head>
 <body>
 <h1> Something I learned...</h1>
-<h2> Table Borders and Rounded Corners...</h2>
-<p> The example below will display a table with a header and a single row with 4 columns. In regards to styling the table, a border was added to the table. </p>
+<h2> Text Effects:</h2>
 
-<table class= "tableExample1">
-    <theader>
-        <th>Change</th>
-        <th>This</th>
-        <th>Table</th>
-        <th>Around</th>
-    </theader>
-    <tr>
-        <td>Enter In...</td>
-        <td>Useless Data..</td>
-        <td>To Fill..</td>
-        <td>This Table!</td>
-    </tr>
-</table>
+<div class="textEffectsShadow">
 
-<p> Next we want to add borders that outline the table header. We can do that in CSS by adding, th as a selector.</p>
-<table class= "tableExample2">
+<h3 id="shadowExample"> Text Effect: Text With Shadow</h3>
+<p> To create text that has a shadow, you first use the css code, color: to select the base color of the shadow. Next you use text-shadow which allows the user to to input values that change the vertical shadow size, horizontal shadow size and set the shadow color. Below are various examples of shadow-text with varying values for those inputs.
+<h4 id="vertBig">Text-Shadow increasing vertical shadow pixels</h4>
 
-        <theader>
-                <th id="thExample2">Change</th>
-                <th id="thExample2">This</th>
-                <th id="thExample2">Table</th>
-                <th id="thExample2">Around</th>
-            </theader>
-            <tr>
-                <td>Enter In...</td>
-                <td>Useless Data..</td>
-                <td>To Fill..</td>
-                <td>This Table!</td>
-            </tr>
-        </table>
+<p> As you can see, adjusting the vertical shadow value to a larger pixel value will cause the shadow to move below the original text.</p>
 
-    <p> This creates a double box which looks.. a bit off. To remedy this, we will remove the double box by collapsing the border. What that means is that the borders will be merged into a single border. We will also add a border for our table data, td. </p>
+<h4 id="horizBig">Text-Shadow increasing horizontal shadow pixels</h4>
 
-    <table class= "tableExample3">
-            <theader>
-                    <th id="thExample3">Change</th>
-                    <th id="thExample3">This</th>
-                    <th id="thExample3">Table</th>
-                    <th id="thExample3">Around</th>
-                </theader>
-                <tr>
-                    <td id="tdExample3">Enter In...</td>
-                    <td id="tdExample3">Useless Data..</td>
-                    <td id="tdExample3">To Fill..</td>
-                    <td id="tdExample3">This Table!</td>
-                </tr>
-            </table>
-<p>&#8593; Now that looks a bit better!</p>
+<p> As you can see, adjusting the horizontal shadow value to a larger pixel value will cause the shadow to move to the right of the original text.</p>
+
+<h4 id="vertSmaller">Text-Shadow decreasing vertical shadow pixels to a negative value</h4>
+
+<p> As you can see, adjusting the vertical shadow value to a negative pixel value will cause the shadow to move above the original text.</p>
+
+<h4 id="horizSmaller">Text-Shadow decreasing horizontal shadow pixels to a negative value</h4>
+
+<p> As you can see, adjusting the horizontal shadow value to a larger pixel value will cause the shadow to move to the left of the original text.</p>
+
+</div>
 </body>
 </html>

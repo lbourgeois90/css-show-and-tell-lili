@@ -1,21 +1,34 @@
-.tableExample1 {
-    border: 1px solid black;
-  
+body {
+    background-color: #EAEAEA;
+    text-align:center;
+}
+h1{
+    text-transform: uppercase;
+    font-family: 'Arial';
+    font-style: italic;
+}
+#shadowExample {
+    color: #FF1493;
+    text-shadow: 2px 2px #00CED1;
+}
+#vertBig {
+    color: #FF1493;
+    text-shadow: 2px 20px #00CED1;
 }
 
-.tableExample2 {
-    border: 1px solid black;
+#horizBig{
+    color: #FF1493;
+    text-shadow: 20px 2px #00CED1;
 }
-    
-#thExample2 {
-    border: 1px solid black;
-
-}
-
-.tableExample3 {
-    border-collapse: collapse;
+#vertSmaller {
+    color: #FF1493;
+    text-shadow: 2px -20px #00CED1;
 }
 
-#thExample3, #tdExample3  {
-    border: 1px solid black;
+#horizSmaller {
+    color: #FF1493;
+    text-shadow: -20px 2px #00CED1;
+}
+p{
+    color: 
 }
